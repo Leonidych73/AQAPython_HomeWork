@@ -24,4 +24,5 @@ norway_text3 = f'Automatisering akselererer {a}yeblikket da roboter vil erobre p
 print(norway_text3)
 
 # to check your new created python module for possible linter errors using command: flake8 homeWork_1.py
+
 # to run from command line using the command: python homeWork_1.py
