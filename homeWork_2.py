@@ -87,7 +87,7 @@ for char in poem_text:
     else:
         new_string_2 += char
 print(new_string_2)
-# _______________________________________
+
 # The new string for the changes marker 2
 
 
