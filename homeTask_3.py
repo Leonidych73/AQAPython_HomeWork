@@ -2,7 +2,8 @@
 # You have list of tuples. Each tuple represents: name, age, some sum, last name, sex
 # Please do such things:
 # 1 - sort list by age and sex fields
-# 2 - somehow you need to get new list as old list without first two elements and last two elements. Print this new list
+# 2 - somehow you need to get new list as old list without first two elements and last
+# two elements. Print this new list
 # 3 - in new list calculate total numbers of "female"  and "male" and print it as small table.
 # Example:
 # -----------------
@@ -56,8 +57,8 @@ people = [
     ('Mike', 55, 55, 'Johnson', 'male')
 ]
 
-# 1 - The list sorting by age and sex fields________________________________
-print('1-st task ' + '_' * 50)  # ____________________________________________
+# 1 - The list sorting by age and sex fields________________________
+print('1-st task ' + '_' * 50)  # __________________________________
 
 from operator import itemgetter, attrgetter, methodcaller
 
@@ -65,7 +66,7 @@ people.sort(key=itemgetter(4, 1))
 for x in people:
     print(x)  # print list in the column
 
-print('2-nd task ' + '_' * 50)  # ____________________________________________the_deviding_line
+print('2-nd task ' + '_' * 50)  # __________________the_deviding_line
 #  2 - somehow you need to get new list as old list without
 #  first two elements and last two elements. Print this new list
 
@@ -77,8 +78,9 @@ new_people.pop(0)
 for x in new_people:  # print list in the column
     print(x)
 
-print('3-th task ' + '_' * 50)  # _________________________________________________________
-# 3 - in new list calculate total numbers of "female"  and "male" and print it as small table.
+print('3-th task ' + '_' * 50)  # ______________________________________
+# 3 - in new list calculate total numbers of "female"  and "male" and
+# print it as small table.
 
 count_male = 0
 count_female = 0
@@ -94,6 +96,8 @@ print("-" * 19)
 print(f"| {'female':^4} | {count_female:^6} |")
 print(f"| {'male':^6} | {count_male:^6} |")
 print("-" * 19)
-#  new control line 6/16/2023:9:37AM
+# _________________________________________________
+#  new control line 6/16/2023:10:10AM
+
 
 
